@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
-    background-image: url("Images/Clouds2.jpeg");
+    background-image: url("Images/Mammatus-Clouds.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -23,7 +23,9 @@ body {
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
+    font-family: Shadows Into Light, cursive;
   }
+
   
   .task {
     white-space: pre-wrap;
@@ -41,8 +43,8 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #14A2B8;
+    color: rgb(255,192,7);
     border-top: 1px dashed #000000;
   }
   

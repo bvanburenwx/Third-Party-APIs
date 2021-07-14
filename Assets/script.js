@@ -1,4 +1,3 @@
-console.log(userHour);
 // Displaying current time at the top of the page.
 var today = moment().format("dddd LL");
 $("#currentDay").append(today);
@@ -48,3 +47,75 @@ if (userHour < hour10) {
 }   else if (userHour = hour10) {
     $("#10AM-textarea").addClass("present");
 }
+
+if (userHour < hour8) {
+    $("#8AM-textarea").addClass("future");
+}   else if (userHour > hour8) {
+    $("#8AM-textarea").addClass("past");
+}   else if (userHour = hour8) {
+    $("#8AM-textarea").addClass("present");
+}
+
+if (userHour < hour9) {
+    $("#9AM-textarea").addClass("future");
+}   else if (userHour > hour9) {
+    $("#9AM-textarea").addClass("past");
+}   else if (userHour = hour9) {
+    $("#9AM-textarea").addClass("present");
+}
+
+if (userHour < hour11) {
+    $("#11AM-textarea").addClass("future");
+}   else if (userHour > hour11) {
+    $("#11AM-textarea").addClass("past");
+}   else if (userHour = hour11) {
+    $("#11AM-textarea").addClass("present");
+}
+
+if (userHour < hour12) {
+    $("#12PM-textarea").addClass("future");
+}   else if (userHour > hour12) {
+    $("#12PM-textarea").addClass("past");
+}   else if (userHour = hour12) {
+    $("#12PM-textarea").addClass("present");
+}
+
+if (userHour < hour13) {
+    $("#1PM-textarea").addClass("future");
+}   else if (userHour > hour13) {
+    $("#1PM-textarea").addClass("past");
+}   else if (userHour = hour13) {
+    $("#1PM-textarea").addClass("present");
+}
+
+if (userHour < hour14) {
+    $("#2PM-textarea").addClass("future");
+}   else if (userHour > hour14) {
+    $("#2PM-textarea").addClass("past");
+}   else if (userHour = hour14) {
+    $("#2PM-textarea").addClass("present");
+}
+
+if (userHour < hour15) {
+    $("#3PM-textarea").addClass("future");
+}   else if (userHour > hour15) {
+    $("#3PM-textarea").addClass("past");
+}   else if (userHour = hour15) {
+    $("#3PM-textarea").addClass("present");
+}
+
+if (userHour < hour16) {
+    $("#4PM-textarea").addClass("future");
+}   else if (userHour > hour16) {
+    $("#4PM-textarea").addClass("past");
+}   else if (userHour = hour16) {
+    $("#4PM-textarea").addClass("present");
+}
+if (userHour < hour17) {
+    $("#5PM-textarea").addClass("future");
+}   else if (userHour > hour17) {
+    $("#5PM-textarea").addClass("past");
+}   else if (userHour = hour17) {
+    $("#5PM-textarea").addClass("present");
+}
+

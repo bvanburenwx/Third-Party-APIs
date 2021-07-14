@@ -4,3 +4,15 @@ $("#currentDay").append(today);
 
 var currentTime = moment().format("LT");
 $("#currentTime").append(currentTime);
+
+// add a listener to the save button
+$(".save-btn").on("click", function () {
+    
+    console.log(this);
+    var text = $(this).siblings(".task").val();
+    var time = $(this).parent().attr("id");
+
+    localStorage.setItem(time, text);
+})
+
+$("#8AM .task").val(localStorage.getItem("8AM"));

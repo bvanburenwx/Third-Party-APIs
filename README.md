@@ -4,6 +4,10 @@ This code is a simple scheduler. Upon opening the page, the user will see severa
 time slots, which will look like the image below. The current date and time that the user opens
 the site will display at the top of the page. 
 
+---
+
+## Screen Shots and Summary
+
 <img src="Assets/Images/Screen Shot 2021-07-14 at 5.01.44 PM.png" alt="Opening Page">
 
 The user will also note that some time slots have background that are different colors. If the background color of the timeslot is Gray that means that this timeslot is in the past. If the timeslot background color is Red, that means the timeslot is the present. Lastly, if the timeslot background color is Green, that means the timeslot is in the future. 
@@ -16,5 +20,25 @@ For demostration purposes, the first images shows the time is currently 4:49PM. 
 
 The user will also note that each timeslot text area has a save icon to the right. The user can click this after typing in a task and it will save the users input and display it on the screen, even if the screen is refreshed. 
 
-The live site can be found at https://bvanburenwx.github.io/Third-Party-APIs/
+---
+
+## Technologies Used
+><b>Developmental Tools:</b>
+>* <b>Framework:</b> Bootstrap
+
+><b>Third Party APIs</b>
+>* Moment
+
+><b>Coding Languages:</b>
+>* HTML
+>* Javascript
+>* CSS 
+>* Local Storage
+
+---
+
+## See the Site Here
+
+
+[Work Day Scheduler](https://bvanburenwx.github.io/Third-Party-APIs/)
 
